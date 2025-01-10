@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dw2ofvswkgt34"
+path="res://.godot/imported/Spell - Fire Hand.mp3-d1f622683b9d68fe5fc7af5f21a5cb11.mp3str"
+
+[deps]
+
+source_file="res://Audio/SFX/Spell - Fire Hand.mp3"
+dest_files=["res://.godot/imported/Spell - Fire Hand.mp3-d1f622683b9d68fe5fc7af5f21a5cb11.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

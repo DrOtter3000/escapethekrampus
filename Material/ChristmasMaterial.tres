@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://86n0frc4e8aw"]
+
+[ext_resource type="Texture2D" uid="uid://daaxic3v5q0a8" path="res://Textures/Polygon_Xmas_Texture_01.png" id="1_1p872"]
+[ext_resource type="Texture2D" uid="uid://bdhixie884shu" path="res://Textures/Polygon_Xmas_Texture_01_Emmision.png" id="2_ag0n1"]
+
+[resource]
+diffuse_mode = 3
+specular_mode = 2
+albedo_texture = ExtResource("1_1p872")
+roughness = 0.0
+emission_enabled = true
+emission_energy_multiplier = 1.2
+emission_texture = ExtResource("2_ag0n1")

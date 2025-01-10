@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bybm37at4o06a"]
+
+[ext_resource type="Texture2D" uid="uid://duadc78o6uldm" path="res://Textures/PolygonZombieBoss_Blood_Decal.tga" id="1_y3xcb"]
+
+[resource]
+diffuse_mode = 3
+specular_mode = 2
+albedo_texture = ExtResource("1_y3xcb")
+metallic_specular = 0.0
+roughness = 0.0

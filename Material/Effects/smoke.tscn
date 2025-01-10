@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://t6uit116uvgv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fusg2"]
+transparency = 1
+blend_mode = 1
+diffuse_mode = 3
+vertex_color_use_as_albedo = true
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_j76fu"]
+emission_shape_scale = Vector3(0.35, 0.01, 0.35)
+emission_shape = 3
+emission_box_extents = Vector3(1, 1, 1)
+gravity = Vector3(0, 2, 0)
+damping_min = 1.0
+damping_max = 2.0
+scale_min = 0.1
+
+[sub_resource type="SphereMesh" id="SphereMesh_hc5jf"]
+radius = 0.1
+height = 0.2
+
+[node name="Smoke" type="Node3D"]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+material_override = SubResource("StandardMaterial3D_fusg2")
+amount = 5
+lifetime = 2.0
+process_material = SubResource("ParticleProcessMaterial_j76fu")
+draw_pass_1 = SubResource("SphereMesh_hc5jf")

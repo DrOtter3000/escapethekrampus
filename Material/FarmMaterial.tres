@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://4wtdtl112k5j"]
+
+[ext_resource type="Texture2D" uid="uid://b0emsalff5222" path="res://Textures/PolygonFarm_Texture_01_A.png" id="1_k2r75"]
+
+[resource]
+diffuse_mode = 3
+specular_mode = 2
+albedo_texture = ExtResource("1_k2r75")
+roughness = 0.0

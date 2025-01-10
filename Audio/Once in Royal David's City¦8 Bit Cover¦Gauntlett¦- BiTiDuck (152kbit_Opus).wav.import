@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcy2jdp10rk0t"
+path="res://.godot/imported/Once in Royal David's City¦8 Bit Cover¦Gauntlett¦- BiTiDuck (152kbit_Opus).wav-7496e92b550a4ff52c915d95e9bfdaef.sample"
+
+[deps]
+
+source_file="res://Audio/Once in Royal David's City¦8 Bit Cover¦Gauntlett¦- BiTiDuck (152kbit_Opus).wav"
+dest_files=["res://.godot/imported/Once in Royal David's City¦8 Bit Cover¦Gauntlett¦- BiTiDuck (152kbit_Opus).wav-7496e92b550a4ff52c915d95e9bfdaef.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

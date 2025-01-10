@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://htnujy46658t"]
+
+[ext_resource type="FontFile" uid="uid://e6chkskf2aug" path="res://Fonts/daniel.ttf" id="1_65vkm"]
+
+[resource]
+default_font = ExtResource("1_65vkm")
+default_font_size = 42
