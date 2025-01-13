@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dni6ucmn63i3a"
-path="res://.godot/imported/Normal12.wav-ef4deb812eb49c99841e15679762edbe.sample"
+path="res://.godot/imported/Normal12.wav-dd7126f8e89d7dc23dcca33dd9065925.sample"
 
 [deps]
 
-source_file="res://Audio/Voices/Krampus/Normal/Normal12.wav"
-dest_files=["res://.godot/imported/Normal12.wav-ef4deb812eb49c99841e15679762edbe.sample"]
+source_file="res://Audio/Normal12.wav"
+dest_files=["res://.godot/imported/Normal12.wav-dd7126f8e89d7dc23dcca33dd9065925.sample"]
 
 [params]
 

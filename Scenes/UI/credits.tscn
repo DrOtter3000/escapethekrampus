@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://fwcpmxoddvpd"]
+[gd_scene load_steps=8 format=3 uid="uid://fwcpmxoddvpd"]
 
 [ext_resource type="Script" path="res://Scenes/UI/credits.gd" id="1_8pfxl"]
 [ext_resource type="FontFile" uid="uid://btitt1xthdnui" path="res://Fonts/Achafexp.ttf" id="2_2stxu"]
+[ext_resource type="Texture2D" uid="uid://dlh8dunaw613k" path="res://Assets/Pictures/Screenshot_20250113_174533.png" id="2_oyc0g"]
 [ext_resource type="AudioStream" uid="uid://doubt2c5qn47x" path="res://Audio/O Tannenbaum¦8 Bit Cover¦Anschütz¦- BiTiDuck (152kbit_Opus).wav" id="2_tf6mk"]
 
 [sub_resource type="Animation" id="Animation_kq65j"]
@@ -21,7 +22,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_g53j2"]
 resource_name = "new_animation"
-length = 48.0
+length = 41.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -29,10 +30,10 @@ tracks/0/path = NodePath("Control:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 44.9333),
+"times": PackedFloat32Array(0, 35.8),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(960, 2500), Vector2(960, -1500)]
+"values": [Vector2(960, 2500), Vector2(960, -686.946)]
 }
 tracks/1/type = "method"
 tracks/1/imported = false
@@ -41,7 +42,7 @@ tracks/1/path = NodePath(".")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(47.3),
+"times": PackedFloat32Array(41),
 "transitions": PackedFloat32Array(1),
 "values": [{
 "args": [],
@@ -63,6 +64,15 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_8pfxl")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_oyc0g")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -99,7 +109,7 @@ theme_override_constants/separation = 500
 layout_mode = 2
 text = "Idea:
 
-DrOtter3000
+-DrOtter3000
 
 
 Programming:
@@ -139,5 +149,5 @@ Happy New Year!"
 
 [node name="BGM" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_tf6mk")
-volume_db = -12.0
+volume_db = -8.0
 autoplay = true
