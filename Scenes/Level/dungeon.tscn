@@ -1,4 +1,4 @@
-[gd_scene load_steps=134 format=4 uid="uid://b4hrgioupxtbc"]
+[gd_scene load_steps=135 format=4 uid="uid://b4hrgioupxtbc"]
 
 [ext_resource type="Script" path="res://Scenes/Level/dungeon.gd" id="1_7uf1s"]
 [ext_resource type="PackedScene" uid="uid://blktmd13y5v0d" path="res://Characters/Player/player.tscn" id="1_7ygr8"]
@@ -102,6 +102,7 @@
 [ext_resource type="PackedScene" uid="uid://d1pmn1fiktr2w" path="res://Assets/Decor/SM_Prop_Toture_IronMaiden_Door_R.fbx" id="90_yjwyh"]
 [ext_resource type="PackedScene" uid="uid://ek03dwy3fgk8" path="res://Assets/LightSources/Candles/SM_Prop_Candle_02.fbx" id="91_elv4w"]
 [ext_resource type="PackedScene" uid="uid://bpou7jvxq6rdh" path="res://Assets/LightSources/Candles/SM_Prop_Candle_Stand_01.fbx" id="102_4qodj"]
+[ext_resource type="AudioStream" uid="uid://b3atk03851mts" path="res://Audio/SFX/11-Experiment 11 (seamless).wav" id="103_vpotd"]
 
 [sub_resource type="Environment" id="Environment_oh1q4"]
 tonemap_mode = 3
@@ -1607,3 +1608,8 @@ transform = Transform3D(120, 0, 0, 0, 120, 0, 0, 0, 120, -1.04495, 0.0963674, -1
 
 [node name="SM_Prop_Candle_Stand_02" parent="." instance=ExtResource("102_4qodj")]
 transform = Transform3D(120, 0, 0, 0, 120, 0, 0, 0, 120, 13.9332, 0.0963674, -5.81994)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("103_vpotd")
+autoplay = true
+bus = &"Music"
