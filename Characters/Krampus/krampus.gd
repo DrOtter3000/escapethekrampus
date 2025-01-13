@@ -17,7 +17,6 @@ var angry_voice_lines = ["res://Audio/Voices/Krampus/Angry/Angry2.wav", "res://A
 @export var speed = 1
 
 @onready var nav: NavigationAgent3D = $NavigationAgent3D
-@onready var convince_timer: Timer = $ConvinceTimer
 
 var player
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -37,7 +36,7 @@ func _process(delta):
 	
 	if catch_ray_cast.get_collider() != null:
 		if catch_ray_cast.get_collider().is_in_group("Player"):
-			get_tree().call_group("Dungeon", "restart_level")
+			get_tree().change_scene_to_file("res://Scenes/Level/jumpscare.tscn")
 	
 	if not haunting and ray_cast_3d.get_collider() != null:
 		if ray_cast_3d.get_collider().is_in_group("Player"):
