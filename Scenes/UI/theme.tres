@@ -1,7 +1,15 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://htnujy46658t"]
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://htnujy46658t"]
 
 [ext_resource type="FontFile" uid="uid://e6chkskf2aug" path="res://Fonts/daniel.ttf" id="1_65vkm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nsa7p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p5eak"]
+bg_color = Color(0.712129, 0.712129, 0.712129, 1)
 
 [resource]
 default_font = ExtResource("1_65vkm")
 default_font_size = 42
+Label/colors/font_color = Color(0.712129, 0.712129, 0.712129, 1)
+ProgressBar/styles/background = SubResource("StyleBoxEmpty_nsa7p")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_p5eak")

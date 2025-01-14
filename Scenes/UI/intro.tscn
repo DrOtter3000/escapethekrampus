@@ -437,7 +437,6 @@ layout_mode = 2
 text = "Hold [SPACE] to skip"
 
 [node name="ProgressBar" type="ProgressBar" parent="SkipContainer/VBoxContainer"]
-visible = false
 custom_minimum_size = Vector2(0, 24)
 layout_mode = 2
 max_value = 1.0

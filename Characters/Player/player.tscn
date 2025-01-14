@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://blktmd13y5v0d"]
+[gd_scene load_steps=8 format=3 uid="uid://blktmd13y5v0d"]
 
 [ext_resource type="Script" path="res://Characters/Player/player.gd" id="1_lgms5"]
+[ext_resource type="PackedScene" uid="uid://dkxwwfhikr0ny" path="res://Scenes/UI/pause.tscn" id="2_6g5rk"]
 [ext_resource type="AudioStream" uid="uid://bihxo85trtv5t" path="res://Audio/SFX/Footsteps/footstep_concrete_land_01.wav" id="2_noulx"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1y31h"]
@@ -88,6 +89,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
+
+[node name="Pause" parent="." instance=ExtResource("2_6g5rk")]
+visible = false
 
 [node name="FootstepSFX" type="AudioStreamPlayer3D" parent="."]
 stream = ExtResource("2_noulx")

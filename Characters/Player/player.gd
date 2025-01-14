@@ -1,5 +1,6 @@
 extends CharacterBody3D
 
+@onready var pause: Control = $Pause
 @onready var camera_3d: Camera3D = $Camera3D
 @onready var ray_cast_3d: RayCast3D = $Camera3D/RayCast3D
 @onready var lbl_action: Label = $HUD/LblAction
